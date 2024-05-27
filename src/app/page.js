@@ -3,6 +3,9 @@
 
 //import Image from "next/image";
 
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+
 export default function Home() {
   return (
     <>
