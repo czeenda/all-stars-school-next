@@ -1,0 +1,67 @@
+$spacer: 1rem !default;
+
+$spacers: (
+    0: 0,
+    1: $spacer * 1,
+    2: $spacer * 2,
+    3: $spacer * 3,
+    4: $spacer * 4,
+    5: $spacer * 5,
+    6: $spacer * 6,
+    7: $spacer * 7,
+    8: $spacer * 8,
+    9: $spacer * 9,
+    10: $spacer * 10,
+    11: $spacer * .25,
+    12: $spacer * .5,
+    13: $spacer * .75,
+    15: $spacer * 1.5,
+    17: $spacer * 17,
+    25: $spacer * 2.5,
+    30: $spacer * 11
+) !default;
+
+// $blue: blue;
+// $red: red;
+// $yellow: yellow;
+
+$primary-color: #66B741;
+$secondary-color: #335CD6;
+$third-color: #8D1D75;
+
+// scss-docs-start theme-color-variables
+$primary:      $primary-color !default;
+$secondary:    $secondary-color !default;
+$third:        $third-color !default;
+// scss-docs-end theme-color-variables
+
+$primary-dark: darken($primary-color, 10%); 
+$secondary-dark: darken($secondary-color, 10%); 
+$third-dark: darken($third-color, 10%); 
+
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":       $primary,
+  "primary-dark":       $primary-dark,
+  "secondary":       $secondary,
+  "secondary-dark":       $secondary-dark,
+  "third":       $third,
+  "third-dark":       $third-dark,
+  
+  
+) !default;
+// scss-docs-end theme-colors-map
+
+
+
+
+
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+
+/* @import './scss/global.scss';
+@import './scss/index.scss';
+@import './scss/responsive.scss' */
