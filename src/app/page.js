@@ -69,7 +69,7 @@ export default function Home() {
 
   </section>
   <section>
-    <div className="w-50 bg-red">ok</div>
+    <div className="w-50">ok</div>
   </section>
   </>
   );
