@@ -3,7 +3,7 @@
 
 //import Image from "next/image";
 
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+//import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 export default function Home() {
@@ -69,7 +69,7 @@ export default function Home() {
 
   </section>
   <section>
-    <div className="w-50 bg-black">ok</div>
+    <div className="w-50 bg-red">ok</div>
   </section>
   </>
   );
