@@ -1,4 +1,5 @@
 'use client'
+import { useEffect } from 'react';
 
 import { Inter } from "next/font/google";
 //import { useEffect } from 'react';
@@ -17,6 +18,12 @@ const inter = Inter({ subsets: ["latin"] });
 // };
 
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap.bundle.min');
+  }, []);
+
+
   return (
     <>
     <html lang="en">
